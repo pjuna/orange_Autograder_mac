@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Conda/Virtual environment folders
+# Conda 환경 자체는 environment.yml로 관리하므로, 실제 env 폴더는 Git에 올리지 않습니다.
+# 만약 venv를 사용한다면 해당 폴더를 추가합니다.
+# 예: .venv/, venv/, env/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+eggs/
+*.egg-info/
+*.egg
+
+# IDE / Editor specific files
+# VSC 사용자이므로, 공유하지 않을 VSC 설정 파일들을 지정합니다.
+# 팀 전체가 공유할 settings.json 등은 !.vscode/settings.json 와 같이 예외 처리 가능합니다.
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json # 팀원에게 추천 확장 프로그램 목록 공유 시
+
+# User-specific files (OS-generated)
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Data files (큰 데이터 파일은 Git LFS를 고려하거나 별도 관리)
+# data/
+# *.csv
+# *.xlsx
+
+# Secrets (API 키, 비밀번호 등 절대 Git에 올리면 안 됩니다!)
+secrets.ini
+.env
